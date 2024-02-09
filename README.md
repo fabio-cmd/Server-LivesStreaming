@@ -6,7 +6,7 @@ Um servidor para live streaming simples, somente com o essencial para você tran
 
 - Docker
 - Extensão para o Chrome (ou safari) "Native MPEG-DASH + HLS Playback" 
-- OBS
+- OBS 
 
 ## Tecnologias
 
@@ -20,11 +20,19 @@ Um servidor para live streaming simples, somente com o essencial para você tran
 
 ## Como Executar
 
-1. Suba os containers utilizando docker compose:
+Suba os containers utilizando docker compose:
 
 ```bash
 docker-compose up --build
 ```
+
+Abra o OBS > Configurações > Transmissão > Servidor
+
+```bash
+rtmp://localhost:1935/live
+```
+Clique em ok e depois clique em Iniciar transmissão
+
 
 ## Assistir a transmissão
 
